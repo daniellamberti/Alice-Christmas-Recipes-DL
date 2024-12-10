@@ -1,11 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensure full height for centering */
+    height: 100%;
 }
 
 body {
-    display: flex; /* Center content vertically and horizontally */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    margin-bottom: 12px; /* Add space between headings */
+    margin-bottom: 12px;
     color: black;
 }
 
@@ -31,9 +31,9 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     width: 80%;
-    margin: 0 auto 16px; /* Add space below */
+    margin: 0 auto 16px;
     list-style: none;
-    padding: 0; /* Remove default list padding */
+    padding: 0;
 }
 
 .loves, .hates {
@@ -43,41 +43,41 @@ h1 {
     padding: 8px;
     border: 1px solid black;
     border-radius: 6px;
-    margin: 6px; /* Apply consistent margins */
+    margin: 6px;
     text-align: center;
 }
 
 button {
     display: block;
-    margin: 16px auto; /* Add space above and below */
+    margin: 16px auto;
     background-color: rgb(208, 255, 0);
     color: black;
     padding: 10px;
     border-radius: 6px;
-    border: none; /* Remove default button border */
+    border: none;
     cursor: pointer;
 }
 
 .recipes-Alice {
-    width: 100%; /* Use full width of the parent container */
-    max-width: 80%; /* Limit maximum width */
+    width: 100%;
+    max-width: 80%;
     padding: 10px;
     color: white;
     font-size: 1.2rem;
     background-color: rgb(4, 4, 182);
     border: 1px solid black;
     border-radius: 6px;
-    margin: 6px auto; /* Center vertically and horizontally */
+    margin: 6px auto;
     text-align: center;
 }
 
 #suitable-recipes {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center child elements */
+    align-items: center;
     margin: 0 auto;
-    width: 100%; /* Ensure full container width */
-    max-width: 80%; /* Limit maximum width */
-    padding: 16px 0; /* Add space around */
+    width: 100%;
+    max-width: 80%;
+    padding: 16px 0;
     color: white;
 }
